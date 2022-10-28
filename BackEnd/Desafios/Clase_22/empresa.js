@@ -1,0 +1,81 @@
+const empresa = {
+    id: "1000",
+    nombre: "Coderhouse",
+    gerente: {
+      id: "2",
+      nombre: "Nombre 1",
+      apellido: "Apellido 1",
+      DNI: "11111111",
+      direccion: "DIR 1",
+      telefono: "11111111",
+    },
+    encargado: {
+      id: "3",
+      nombre: "Nombre 2",
+      apellido: "Apellido 2",
+      DNI: "222222222",
+      direccion: "DIR 2",
+      telefono: "22222222",
+    },
+    empleados: [
+      {
+        id: "1",
+        nombre: "EMP1",
+        apellido: "EMP1 APELLIDO",
+        DNI: "564654654",
+        direccion: "DIR",
+        telefono: "54645465",
+      },
+      {
+        id: "2",
+        nombre: "EMP2",
+        apellido: "EMP2 APELLIDO",
+        DNI: "8798977",
+        direccion: "DIR",
+        telefono: "9898989",
+      },
+      {
+        id: "3",
+        nombre: "EMP3",
+        apellido: "EMP3 APELLIDO",
+        DNI: "8111222",
+        direccion: "DIR",
+        telefono: "3213213213",
+      },
+  
+      {
+        id: "4",
+        nombre: "EMP4",
+        apellido: "EMP4 APELLIDO",
+        DNI: "64545556654",
+        direccion: "DIR",
+        telefono: "7898968465",
+      },
+      {
+        id: "5",
+        nombre: "EMP5",
+        apellido: "EMP5 APELLIDO",
+        DNI: "1512312",
+        direccion: "DIR",
+        telefono: "4565454",
+      },
+      {
+        id: "6",
+        nombre: "EMP6",
+        apellido: "EMP6 APELLIDO",
+        DNI: "123121",
+        direccion: "DIR",
+        telefono: "5636541",
+      },
+      {
+        id: "7",
+        nombre: "EMP7",
+        apellido: "EMP7 APELLIDO",
+        DNI: "23132123",
+        direccion: "DIR",
+        telefono: "52132",
+      },
+    ],
+  };
+  
+  export default empresa

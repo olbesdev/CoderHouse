@@ -1,0 +1,65 @@
+[
+  {
+    "nombre": "Producto 1",
+    "precio": 11000,
+    "categoria": "Categoria",
+    "descripcion": "Descripción Producto 1",
+    "id": 1
+  },
+  {
+    "nombre": "Producto 2",
+    "precio": 12000,
+    "categoria": "Categoria",
+    "descripcion": "Descripción Producto 2",
+    "id": 2
+  },
+  {
+    "nombre": "Producto 3",
+    "precio": 13000,
+    "categoria": "Categoria 2",
+    "descripcion": "Descripción Producto 3",
+    "id": 3
+  },
+  {
+    "nombre": "Producto 4",
+    "precio": 14000,
+    "categoria": "Categoria 2",
+    "descripcion": "Descripción Producto 4",
+    "id": 4
+  },
+  {
+    "id": 5,
+    "nombre": "Producto 5 Modificado",
+    "precio": 130000,
+    "categoria": "Categoria 4",
+    "descripcion": "Descripción Producto 5 Modificado"
+  },
+  {
+    "nombre": "Producto 6",
+    "precio": 16000,
+    "categoria": "Categoria 3",
+    "descripcion": "Descripción Producto 6",
+    "id": 6
+  },
+  {
+    "id": 7,
+    "nombre": "Producto 7 Modificado parte 2",
+    "precio": 1300000,
+    "categoria": "Categoria 77",
+    "descripcion": "Descripción Producto 7 Modificado"
+  },
+  {
+    "nombre": "bandeja",
+    "precio": "550000",
+    "categoria": "Categoria 5",
+    "descripcion": "Bandeja",
+    "id": 8
+  },
+  {
+    "nombre": "Producto 9",
+    "precio": "100",
+    "categoria": "Categoria 1",
+    "descripcion": "Descripcion producto 1",
+    "id": 9
+  }
+]

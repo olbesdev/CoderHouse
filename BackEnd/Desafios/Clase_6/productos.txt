@@ -1,0 +1,58 @@
+[
+    {
+    "nombre": "Pan sin Gluten Grande 2",
+    "precio": 12000,
+    "categoria": "Sin Glutten",
+    "descripcion": "Pan sin glutten",
+    "id": 1
+  },
+  {
+    "nombre": "Pan sin Gluten Grande 2",
+    "precio": 12000,
+    "categoria": "Sin Glutten",
+    "descripcion": "Pan sin glutten",
+    "id": 2
+  },
+  {
+    "nombre": "Pan sin Gluten Grande 3",
+    "precio": 12000,
+    "categoria": "Sin Glutten",
+    "descripcion": "Pan sin glutten",
+    "id": 3
+  },
+  {
+    "nombre": "Pan sin Gluten Grande 4",
+    "precio": 12000,
+    "categoria": "Sin Glutten",
+    "descripcion": "Pan sin glutten",
+    "id": 4
+  },
+  {
+    "nombre": "Pan sin Gluten Grande 5",
+    "precio": 12000,
+    "categoria": "Sin Glutten",
+    "descripcion": "Pan sin glutten",
+    "id": 5
+  },
+  {
+    "nombre": "Pan sin Gluten Grande",
+    "precio": 12000,
+    "categoria": "Sin Glutten",
+    "descripcion": "Pan sin glutten",
+    "id": 6
+  },
+  {
+    "nombre": "Pan sin Gluten Grande",
+    "precio": 12000,
+    "categoria": "Sin Glutten",
+    "descripcion": "Pan sin glutten",
+    "id": 7
+  },
+  {
+    "nombre": "Aceite de Coco",
+    "precio": 42000,
+    "categoria": "Orgánico",
+    "descripcion": "Aceite de coco organico, libre de conservantes",
+    "id": 8
+  }
+]

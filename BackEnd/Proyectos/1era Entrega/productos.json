@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Instagram",
+    "price": "200",
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_instagram-512.png",
+    "id": 1
+  },
+  {
+    "title": "Facebook",
+    "price": "500",
+    "thumbnail": "https://cdn1.iconfinder.com/data/icons/social-media-2285/512/Colored_Facebook3_svg-512.png",
+    "id": 2
+  },
+  {
+    "title": "Twitter",
+    "price": "800",
+    "thumbnail": "https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter3_colored_svg-512.png",
+    "id": 3
+  },
+  {
+    "title": "TikTok prueba agregado producto",
+    "price": "1500",
+    "thumbnail": "https://cdn0.iconfinder.com/data/icons/logos-brands-7/512/TikTok_logo_app0-512.png",
+    "id": 4
+  }
+]

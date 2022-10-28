@@ -1,0 +1,26 @@
+[
+  {
+    "nombre": "producto:TikTok prueba agregado producto",
+    "precio": "precio:1500",
+    "url": "",
+    "hora": "7:30:06 p. m.",
+    "cantidad": 1,
+    "id": 1
+  },
+  {
+    "nombre": "producto:Twitter",
+    "precio": "precio:800",
+    "url": "",
+    "hora": "7:30:07 p. m.",
+    "cantidad": 1,
+    "id": 2
+  },
+  {
+    "nombre": "producto:Facebook",
+    "precio": "precio:500",
+    "url": "",
+    "hora": "7:30:09 p. m.",
+    "cantidad": 1,
+    "id": 3
+  }
+]

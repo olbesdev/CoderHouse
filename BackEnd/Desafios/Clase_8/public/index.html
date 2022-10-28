@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Formulario - Desafio 8</title>
+</head>
+<body>
+    <div class="formHeader">
+        <h1>Formulario de Productos</h1>
+        <form method="POST" action="http://localhost:8080/api/productos">
+            <label for="">Nombre</label>
+            <input type="text" name="nombre" placeholder="nombre">
+            <label for="">Precio</label>
+            <input type="number" name="precio" placeholder="precio">
+            <label for="">Categoría</label>
+            <input type="text" name="categoria" placeholder="categoria">
+            <label for="">Descripcion</label>
+            <input type="text" name="descripcion" placeholder="descripcion">
+            <button type="submit">Guardar</button>
+        </form>
+    </div>
+</body>
+</html>
