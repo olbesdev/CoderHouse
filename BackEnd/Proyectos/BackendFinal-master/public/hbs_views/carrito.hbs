@@ -1,0 +1,66 @@
+<div class="container  text-center p-4 shadow-lg p-3 mb-5 bg-body rounded">
+
+  {{!-- <div class="text-center">
+    <h2 class="text-center">CART</h2>
+    <a href="/products" class="btn btn-warning my-2">Return to Menu</a>
+  </div> --}}
+
+  <div class="border text-center">
+    <h1 class="p-1 m-1 text-uppercase ">CARRITO</h2>
+    <h5 class="text-danger">{{this.username}}</h3>
+  </div>
+      <a href="/products" class="btn btn-warning my-3 text-center">Volver al Menu</a>
+
+  <table class="container table table table-hover">
+    <thead>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Thumbnail</th>
+      <th>Price</th>
+      <th>Description</th>
+      <th>Category</th>
+      <th>Quantity</th>
+      <th></th>
+    </thead>
+
+    <tbody>
+      {{#each products}}
+        <tr>
+          <td>{{_id}}</td>
+          <td>{{title}}</td>
+          <td><a href="{{thumbnail}}">{{thumbnail}}</a></td>
+          <td>${{price}}</td>
+          <td>{{description}}</td>
+          <td>{{category}}</td>
+          <td>
+          <input type="number" min="1" max="14" value="1" {{quantity}}>  
+             </td>
+          {{!-- <td><button class="btn btn-danger m-1" >+</button></td>
+          <td><button class="btn btn-danger m-1">-</button></td> --}}
+          <td>
+            <form 
+            {{!-- action="/cart" --}}
+             action="/cart/{{_id}}" 
+             method="POST">
+              <input type="hidden" name="id" value="{{_id}}" />
+              <button type="submit" class="btn btn-danger btn-block">Borrar</button>
+            </form>
+          </td>
+          
+        </tr>
+      {{/each}}
+
+    </tbody>
+  </table>
+
+    <div class="text-center">
+    <p class="my-2">TOTAL </p>
+  </div>
+  <div class="text-center">
+
+    <form  action="/cart/comprar" method="POST">
+      <button class="btn btn-warning my-2">Comprar</button>
+    </form>
+    
+  </div>
+</div>

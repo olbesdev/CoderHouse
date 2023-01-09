@@ -1,0 +1,11 @@
+<div class="my-4 container text-center border shadow">
+  <h3 class="text-center my-2"> Hasta luego {{this.username}}!</h3>
+  <p class="my-5 text-danger">Vuelva Prontos!</p>
+  <p class="fs-6 my-4 ">RRedireccionando...</p>
+</div>
+
+<script>
+  setTimeout(() => {
+      window.location.assign("/")
+  }, 3000);
+</script>

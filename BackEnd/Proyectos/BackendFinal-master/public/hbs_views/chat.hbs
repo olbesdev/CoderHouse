@@ -1,0 +1,32 @@
+<html>
+  <div
+    class="container text-center mt-2 border shadow-lg p-3 mb-5 bg-body rounded"
+  >
+<div class="border">
+    <h1 class="p-1 m-1 text-uppercase">Chatear con soporte</h2>
+    <h5 class="text-center mb-2 text-danger" id="userMail">{{this.username}}</h2>
+</div>
+
+    <a href="/products" class="btn btn-warning my-3">Volver al Menu</a>
+
+    <head>
+      <script src="../socket.io/socket.io.js"></script>
+      <script src="main.js"></script>
+    </head>
+    <body>
+      <div id="messages" class="p-2 m-2"></div>
+      <form onsubmit="return enviarMensaje()">
+
+        <input
+          class="m-2 p-1 form-control"
+          placeholder="Insert Text"
+          type="text"
+          id="text"
+        />
+        <button class="m-2 p-1 form-control btn btn-dark" type="submit">Enviar
+          Mensaje</button>
+      </form>
+
+    </body>
+  </div>
+</html>

@@ -1,0 +1,18 @@
+
+<div class="container text-center mt-2 border shadow-lg p-3 mb-5 bg-body rounded">
+    <h1 class="my-3">Acceso</h1>
+    <form method="POST" onsubmit="" action="/login" id="login"> 
+        <!-- title input -->
+        <div class="form-outline mb-4">
+            <input class="form-control" type="text" id="username" name="username" placeholder="Username" value="" required/>
+        </div>
+        <!-- Password input -->
+            <div class="form-outline mb-4">
+            <input class="form-control" type="password" id="pass" name="password" placeholder="Password" value="" required/>
+        </div>
+        <!-- Submit -->
+        <button type="submit" value="login" class="btn btn-dark btn-block mb-4">Inicia session</button>
+        <!-- Redireccionamientos a register/login -->
+        <p><a href="/register">¿Sos nuevo Usuario? Crea una cuenta.</a></p>
+    </form>
+</div>
